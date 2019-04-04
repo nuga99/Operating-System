@@ -1,0 +1,47 @@
+exit 1
+This demo is available in badak:///extra/.
+See also: https://os.vlsm.org/
+You should copy this folder to your own working folder.
+DO NOT work inside the /extra folder!
+===================================
+REV08: Wed Mar 13 14:45:55 WIB 2019
+REV05: Tue Sep  4 09:13:28 WIB 2018
+START: Wed Apr  4 09:51:41 WIB 2018
+
+# Copyright (C) 2018-2019 Rahmat M. Samik-Ibrahim 
+# http://RahmatM.Samik-Ibrahim.vLSM.org/
+# This free document is distributed in the hope that it will be 
+# useful, but WITHOUT ANY WARRANTY; without even the implied 
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+# Special thanks to:
+# Anisha Inas Izdihar (AII), Benedictus Alvin (BA), Ibnu Sofian
+# Firdaus (ISF), Irmanpen Panjaitan (IP), Ivana Irene Thomas (IIT),
+# Michael Giorgio Wirawan (MGW), Muhammad Afkar (MA), Muhammad
+# Hanif Pratama (MHP), Muhammad Iqbal Mahendra (MIM), M. Ikhsan
+# Kurniawan (MIK), Nixi Sendya Putri (NSP), Raihan Mahendra Sutanto
+# (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer
+# Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA)
+=======================================================
+
+Folder Name:
+Week06/
+
+To copy the folder to your home directory:
+cp -r /extra/Demos/W06-demos/ ~/mydemos/W06-demos/
+==================================================
+
+File Listing:
+* 000-READ-THIS-FIRST.txt (this file)
+* Makefile (a make file)
+* C files:
+   00-show-pid.c, 01-fork.c, 02-fork.c, 03-fork.c,
+   04-sleep.c, 05a-fork.c, 05b-fork.c, 06a-fork.c,
+   06b-fork.c, 06c-fork.c, 06d-fork.c, 07-fork.c,
+   08-fork.c, 09-fork.c, 10-fork.c, 11-fork.c,
+   12-fork.c, 13-uas161.c, 14-uas162.c, 15-uas171.c,
+   16-uas172.c
+=======================================================
+To list files, run:  ls -al
+To compile the “.c” files, run make
+
