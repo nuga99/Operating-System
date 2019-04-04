@@ -1,0 +1,54 @@
+exit 1
+This demo is available in badak:///extra/.
+See also: https://os.vlsm.org/
+You should copy this folder to your own working folder.
+DO NOT work inside the /extra folder!
+=====================================
+REV04: Wed Mar 13 14:53:29 WIB 2019
+REV03: Wed Aug 29 19:14:44 WIB 2018
+START: Wed Apr 18 09:49:51 WIB 2018
+
+# Copyright (C) 2018-2019 Rahmat M. Samik-Ibrahim 
+# http://RahmatM.Samik-Ibrahim.vLSM.org/
+# This free document is distributed in the hope that it will be 
+# useful, but WITHOUT ANY WARRANTY; without even the implied 
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+# Special thanks to:
+# Anisha Inas Izdihar (AII), Benedictus Alvin (BA), Ibnu Sofian
+# Firdaus (ISF), Irmanpen Panjaitan (IP), Ivana Irene Thomas (IIT),
+# Michael Giorgio Wirawan (MGW), Muhammad Afkar (MA), Muhammad
+# Hanif Pratama (MHP), Muhammad Iqbal Mahendra (MIM), M. Ikhsan
+# Kurniawan (MIK), Nixi Sendya Putri (NSP), Raihan Mahendra Sutanto
+# (RM), Rizki Leonardo (RL), Shavira Adeva (SA), Stefan Mayer
+# Sianturi (SMS), Thrisnadevany Amalia (TA), Zhelia Alifa (ZA)
+
+# TAKE NOTE (RMS)
+# Week08 has been tested with WSL Ubuntu 18.04 (Windows 10).
+
+# cat /proc/version
+# Linux version 4.4.0-17134-Microsoft (Microsoft@Microsoft.com) 
+#  (gcc version 5.4.0 (GCC)) #137-Microsoft Thu Jun 14 18:46:00 PST 2018
+
+
+=======================================================
+
+Folder Name:
+Week08/
+
+To copy the folder to your home directory:
+cp -r /extra/Demos/W08-demos/ ~/mydemos/W08-demos/
+==================================================
+
+File Listing:
+* 000-READ-THIS-FIRST.txt (this file)
+* Makefile (a make file)
+* C files:
+20-parent.c 21-child.c 22-hello-goodbye.c 
+23-producer-consumer.c
+
+ALL:
+To make sure you understand Concurency and Synchronization;
+you should repeat Week06 and Week07!  Do not forget to update
+your "README.md" file!
+

@@ -1,0 +1,4 @@
+http://nuclear.mutantstargoat.com/articles/make/
+http://make.mad-scientist.net/papers/advanced-auto-dependency-generation/
+https://stackoverflow.com/questions/45813030/how-to-generate-multiple-executable-files-in-one-makefile
+

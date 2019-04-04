@@ -1,0 +1,25 @@
+# START Wed Dec  5 19:35:40 WIB 2018
+#
+
+CC=gcc
+
+all: main1 main2 main3 main4
+
+main1: main1.o sub1.o sub2.o sub3.o
+	$(CC) -o main1 main1.o sub1.o sub2.o sub3.o
+   
+main2: main2.o sub1.o sub2.o
+	$(CC) -o main2 main2.o sub1.o sub2.o 
+   
+main3: main3.o sub1.o sub3.o
+	$(CC) -o main3 main3.o sub1.o sub3.o
+   
+main4: main4.o sub2.o sub3.o
+	$(CC) -o main4 main4.o sub2.o sub3.o
+   
+.phony: clean all
+
+clean:
+	rm -f *.o
+
+
